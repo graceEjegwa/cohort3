@@ -1,64 +1,60 @@
-*{
-  margin:0;
+* {
+  margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
-body{
+body {
   background-color: #2d313c;
   color: white;
-
-
 }
 
-img{
+img {
   width: 200px;
   height: 200px;
   border: 2px solid whitesmoke;
 }
 
-h5, h6, p {
-	color: white;
-	font-family: Montserrat-Regular;
-	
+h5,
+h6,
+p {
+  color: white;
+  font-family: Montserrat-Regular;
 }
- h2 {
-	/* color: rgb(156, 148, 148) !important; */
-	font-family: Montserrat-Regular;
-    font-size: 14px;
-    line-height: 1.7;
-    margin: 0px;
-	
+h2 {
+  /* color: rgb(156, 148, 148) !important; */
+  font-family: Montserrat-Regular;
+  font-size: 14px;
+  line-height: 1.7;
+  margin: 0px;
 }
 h1 {
   color: white !important;
   font-family: Montserrat-Regular;
-    font-size: 14px;
-    line-height: 1.7;
-    margin: 0px;
-  
+  font-size: 14px;
+  line-height: 1.7;
+  margin: 0px;
 }
-.header .initiative-label{
+.header .initiative-label {
   padding-top: 10px;
   text-align: center;
   font-size: 34px;
 }
-.header-remain span{
+.header-remain span {
   color: #666666 !important;
 }
-.header{
+.header {
   height: 30vh;
   text-align: center;
 }
 .container h2 {
-	color: dodgerblue;
-	font-family: Montserrat-Regular;
+  color: dodgerblue;
+  font-family: Montserrat-Regular;
   font-size: 14px;
   line-height: 1.7;
   margin: 0px;
 }
 
 .column {
-  
   display: flex;
   align-content: center;
   align-items: center;
@@ -68,13 +64,13 @@ h1 {
   margin-bottom: 16px;
   padding: 0 8px;
 }
-.card{
+.card {
   width: 75%;
   height: 270px;
   padding: 12px;
-  background-color:rgb(0,0,128, 0.2);
+  background-color: rgb(0, 0, 128, 0.2);
 }
-.card:hover{
+.card:hover {
   padding: 13px;
   background: white;
   /* rgb( 28, 250, 120, 0.7); */
@@ -101,12 +97,12 @@ h1 {
 
 /* Some left and right padding inside the container */
 .container {
-
   padding: 0 16px;
 }
 
 /* Clear floats */
-.container::after, .row::after {
+.container::after,
+.row::after {
   content: "";
   clear: both;
   display: table;
@@ -115,4 +111,3 @@ h1 {
 .title {
   color: grey;
 }
-
